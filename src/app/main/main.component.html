@@ -1,0 +1,40 @@
+<header>
+<kb-add-name
+(addModalName)="modalAddName()"
+(addName)=" ActualizeNameVar()"
+></kb-add-name >
+
+<kb-names
+[addNameVar] ='addNameVar'
+(addName)="ActualizeNameVar()"
+(acceptAlert)="modalAcceptRemove()"
+(removeAlert)="modalRemoveAlert()"
+ ></kb-names>
+</header>
+
+<body>
+<kb-form-card
+(addCard)="modalAddCard()"
+[addNameVar]="this.addNameVar"
+></kb-form-card>
+
+
+<kb-built-card
+[addCard] = "addCard"
+(removeCardModal)="modalRemoveCard()"
+(editCardModal)="modalEditCard()"
+> </kb-built-card>
+</body>
+
+
+
+<kb-modal
+[removeAlert] = "removeAlert"
+[acceptRemove] = "acceptRemove"
+[addCard] = "addCard"
+[removeCard] = "removeCard"
+[addName] = 'addModalName'
+[changeCard] = 'editCard'
+>
+</kb-modal>
+

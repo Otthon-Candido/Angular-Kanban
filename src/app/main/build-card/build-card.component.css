@@ -1,0 +1,181 @@
+.cartao{
+  transition: 500ms;
+  display: grid;
+  border-radius: 25px;
+  border-style:solid;
+  border-width: medium;
+  width: 75%;
+  background-color: rgb(5, 29, 64);
+  margin: 0px;
+  padding:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+}
+
+.tabelas{
+
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: rgb(198, 247, 253);
+
+}
+
+.borda{
+  text-align: center;
+  display: block;
+  justify-items: center;
+  border-radius: 10px;
+  border-style:solid;
+  border-width: medium;
+  width: 25%;
+  background-color:white;
+
+}
+.borda2{
+  height: 300px;
+  border-radius: 10px;
+  border-style:solid;
+  border-width: medium;
+  width: 25%;
+  background-color:white;
+}
+
+
+
+ p{
+    margin:0px;
+    padding:0px;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+ }
+
+ h3{
+  margin:0px;
+  padding:0px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+
+ }
+
+ h1{
+  text-align: start;
+  margin-left: auto;
+  height: 25px;
+  width: 80%;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+  font-size: 18px;
+  background-color: rgb(227, 171, 255);
+  border-top-left-radius: 50px ;
+  border-top-right-radius: 20px ;
+  border-bottom-left-radius: 50px ;
+  border-left-style:solid;
+  border-left-width: initial;
+  padding-left: 20px;
+
+ }
+.fa-sm{
+  font-size:0.8em;
+  line-height:1.0em;
+  vertical-align:25%;
+  margin-left: -1.7px;
+ }
+
+.botao{
+  width: 23px;
+  height: 23px;
+  border-radius: 10px;
+  border-style:none;
+  border-width: medium;
+}
+
+.expand{
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.showcartao{
+  margin-top: 15px;
+  display: grid;
+  border-radius: 25px;
+  border-style:solid;
+  border-width: medium;
+  width: 75%;
+  background-color: rgb(5, 29, 64);
+  margin: 0px;
+  padding:0px;
+  height: 500px;
+  align-items: center;
+
+}
+
+.showcartao h3{
+  margin:0px;
+  padding:0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 15px;
+
+}
+
+.showcartao p{
+ margin:0px;
+ padding:0px;
+ text-align: center;
+ width: 80%;
+ color: white;
+ font-size: 15px;
+ margin-bottom: 20px;
+}
+
+.modal-body{
+display: grid;
+justify-items: center;
+
+}
+
+.size-botton{
+  width: 25px;
+  height: 25px;
+}
+
+.arrow-up{
+  width: 25px;
+  height: 25px;
+  margin-bottom: -4px;
+}
+
+ .edit{
+     padding: 0rem 0rem;
+     height: 30px;
+     width: 30px;
+     box-shadow: none;
+     margin-bottom: 10px;
+ }
+
+.grid{
+  display: grid;
+  justify-items: center;
+}
+
+.save-botton{
+margin-left: 10px;
+}
+
+.accordion{
+  display: grid;
+  justify-items: center;
+}
