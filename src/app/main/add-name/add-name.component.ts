@@ -33,8 +33,6 @@ loginForm:FormGroup;
 
 
 ngOnInit() {
-console.log("foii")
-
   this.debounce.subscribe(input => {
   this.inputFormName(input)
 
@@ -124,7 +122,5 @@ adicionar(){
         this.localStorege.set('name',this.names);
         this.addModalName.emit();
         this.addName.emit();
-
 }
-
 }
